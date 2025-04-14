@@ -1,5 +1,5 @@
 # Bluetooth-auto-dos-script
-## Installing (Kali Linux/Termux):
+## Installing (only in kali linux ):
 
 ```
 
