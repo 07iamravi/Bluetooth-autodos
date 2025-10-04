@@ -29,7 +29,7 @@ A lightweight Python script to automate Bluetooth denial-of-service testing on K
 ```bash
 git clone https://github.com/07iamravi/Bluetooth-autodos
 cd Bluetooth-autodos
-
+```
 
 ---
 
@@ -57,8 +57,8 @@ sudo hciconfig hci0 up
 Running
 
 Once pre-checks are complete and you have legal authorization, run the script:
-
-python attack.py
+`
+sudo python attack.py`
 
 (Use python3 if your system maps Python 3 to python3.)
 
