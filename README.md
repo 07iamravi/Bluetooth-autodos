@@ -38,15 +38,16 @@ Before you run
 Make sure your Bluetooth adapter is up and in the correct mode. Use hciconfig to inspect the adapter.
 
 1. Check adapter status
-
+```bash
 hciconfig
+```
 
 Look for your Bluetooth interface (e.g., hci0) and confirm it is UP. If the interface is down, bring it up:
 
 2. Bring adapter up (if needed)
-
+```bash
 sudo hciconfig hci0 up
-
+```
 > Note: Some attacks or tools require the adapter to be in monitor/management mode supported by your chipset and drivers. Confirm your adapter supports the needed features before proceeding.
 
 
@@ -57,8 +58,9 @@ sudo hciconfig hci0 up
 Running
 
 Once pre-checks are complete and you have legal authorization, run the script:
-`
-sudo python attack.py`
+```bash
+sudo python attack.py
+```
 
 (Use python3 if your system maps Python 3 to python3.)
 
