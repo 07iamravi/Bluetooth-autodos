@@ -3,6 +3,6 @@
 
 ```
 
-git clone https://github.com/blackhatvenomm/Bluetooth-auto-dos-script-.git
-cd Bluetooth-auto-dos-script-
+git clone https://github.com/07iamravi/Bluetooth-autodos
+cd Bluetooth-autodos
 python attack.py
